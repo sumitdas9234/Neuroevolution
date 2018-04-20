@@ -1,0 +1,70 @@
+  body {
+    background: #333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px !important;
+    overflow-x: hidden;
+    color: #D980FA;
+  }
+
+  .log-boolean,
+  .log-undefined {
+    color: #eb3b5a;
+  }
+
+  .log-object,
+  .log-string {
+    color: #4b6584;
+  }
+
+  .log-number {
+    color: #1B9CFC;
+  }
+
+  .sidebar {
+    position: relative;
+    float: right;
+    background-color: #fff;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 400px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 12px 12px 0px 0px;
+  }
+
+  .console {
+    margin: 10px;
+    padding-top: 30px;
+    overflow-y: auto;
+    height: 550px;
+    width: inherit;
+  }
+
+  .logger {
+    background-color: #cf6a87;
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    position: absolute;
+    top: 0px;
+    height: 28px;
+    line-height: 28px;
+    float: right;
+    width: 380px;
+    font-size: 16px;
+    border-radius: 12px 12px 0px 0px;
+  }
+  .header{
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    top: 15px;
+    float: left;
+    height: 40px;
+    border: 2px solid rgba(252, 66, 123,0.5);
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 92px;
+  }
